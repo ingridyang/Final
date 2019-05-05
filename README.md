@@ -17,12 +17,7 @@ Describe the components, or pieces, that make up your project.
 
 Include what types of inputs/outputs/data it will use. You can also upload an image with a diagram showing how all those pieces are connected.
 
-## When your project is completed, you will then add the following sections:
-
 ## Timeline
-
-What did you do in each of the past four weeks?
-
 - Week 0: Write Proposal
 - Week 1: Find materials/ figure out code
 - Week 2: Put together code and materials
@@ -30,9 +25,7 @@ What did you do in each of the past four weeks?
 - Week 4: Present!
 
 ## Challenges
-
-A brief discussion of what was hard, challenging, or unexpected about your project.
-How to make the 
+Figuring out what maximum and mimunum to put for each LED light because if it was 10 units higher or lower it messes up the algorithm of the light reacting to sound. Also designing the project to be more complex than it sounds.
 
 ## Completed Work
 
