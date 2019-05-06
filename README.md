@@ -7,14 +7,14 @@ I built a sound sensor that will be reacted by LED lights. By making this happen
 ## Component Parts
 I will be using an arduino uno, breadboard, mic sensor, LED lights, 
 Mic sensor:
--VCC to 3.3V
--GND to GND
--AUD to A0
+- VCC to 3.3V
+- GND to GND
+- AUD to A0
 
 LED Lights:
--led1: + to 10, - to GND
--led2: + to 7, - to GND
--led3: + to 12, - to GND
+- led1: + to 10, - to GND
+- led2: + to 7, - to GND
+- led3: + to 12, - to GND
 
 ## Timeline
 - Week 0: Write Proposal
@@ -27,7 +27,7 @@ LED Lights:
 Figuring out what maximum and mimunum to put for each LED light because if it was 10 units higher or lower it messes up the algorithm of the light reacting to sound. Also designing the project to be more complex than it sounds.
 
 ## Completed Work
-
+https://github.com/ingridyang/Final/blob/master/lightshow_CP1_Final.zip
 
 ## References and links
 https://www.youtube.com/watch?v=pcpxCOo_8js
