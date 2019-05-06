@@ -2,7 +2,6 @@ int soundsensor = A0;
 int led1 = 7;
 int led2 = 10;
 int led3 = 12;
-//boolean LEDStatus=false;
 
 void setup() {
 
@@ -12,7 +11,8 @@ void setup() {
   pinMode(led3, OUTPUT);
 }
 
-int val = analogRead (soundsensor);
+void loop() {
+  int val = analogRead (soundsensor);
   Serial.println(val);
 
   if (val > 350)
@@ -23,9 +23,9 @@ int val = analogRead (soundsensor);
   {
     digitalWrite (led1, LOW);
   }
-  
-  
- if (val > 370)
+
+
+  if (val > 370)
   {
     digitalWrite (led2, HIGH);
   }
@@ -34,7 +34,7 @@ int val = analogRead (soundsensor);
     digitalWrite (led2, LOW);
   }
 
-  
+
   if (val > 390)
   {
     digitalWrite (led3, HIGH);
